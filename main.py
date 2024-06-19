@@ -954,7 +954,7 @@ def main():
 
     # Create map by input file
 
-    flag, _, _, _, agent = inputMap('m1.txt')
+    flag, _, _, _, agent = inputMap('Map1.txt')
     size = len(flag)
     game = TheWumpusWorld(size)
     label = createLabel(flag)
